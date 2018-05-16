@@ -105,6 +105,12 @@ a {
     display: block;
     text-align: center;
 }
+.desc {
+    color: black;
+    text-align: justify;
+    display: block;
+    font-weight: 100;
+}
 
 /* Mobile */
 @media (max-width : 443px ){
@@ -183,9 +189,10 @@ a {
     .name {
         font-size: 40pt;
     }
-    .description {
-        font-size: 15pt;
+    .desc {
+        font-size: 20pt;
     }
+
 }
 .container{
 	background: transparent;
