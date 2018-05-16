@@ -92,7 +92,7 @@ a {
     margin-right: auto;
     }
 .service {
-    padding-top: 10px;
+    padding-top: 100px;
     width: 310px;
     margin-left: auto;
     margin-right: auto;
@@ -133,6 +133,9 @@ a {
 	.b {
 		margin-left: -3%;
 	}
+    .icon {
+        width: 200px;
+    }
 }
 /* Small Tablets */
 @media ( min-width : 444px ) and (max-width : 823px ){
@@ -174,7 +177,7 @@ a {
 		width: 100%;
 	}
     .service {
-        padding-top: 110px;
+        padding-top: 120px;
         width: 400px;
     }
     .name {
