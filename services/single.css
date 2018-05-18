@@ -109,6 +109,13 @@
      margin-right: auto;
      display: block;
 }
+     .services2 {
+         text-align: center;
+     }
+     .service, .subtext {
+         display: inline-block;
+         text-align: center;
+     }
 /* Mobile */
  @media (max-width : 443px ){
      .container header nav {
@@ -136,6 +143,13 @@
      .b {
          margin-left: -3%;
     }
+     .subicon {
+         height: 40px;
+         margin-bottom: 6px;
+     }
+     .name {
+         font-size: 40px;
+     }
 }
 /* Small Tablets */
  @media ( min-width : 444px ) and (max-width : 823px ){
@@ -164,10 +178,12 @@
          font-size: 20pt;
          float: center;
     }
-     .services2 {
-         padding-left: 8%;
-         padding-left: auto;
-    }
+     .subtext {
+         font-size: 25pt;
+     }
+     .subicon {
+         height: 70px;
+     }
 }
 /* Small Desktops */
  @media (min-width : 824px ) and ( max-width : 1920px ){
@@ -185,10 +201,7 @@
      .name {
          font-size: 40pt;
     }
-     .services2 {
-         padding-left: 15%;
-         padding-right: 15%;
-    }
+
 }
  .container{
      background: transparent;
