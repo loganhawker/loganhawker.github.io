@@ -144,11 +144,17 @@
          margin-left: -3%;
     }
      .subicon {
-         height: 40px;
-         margin-bottom: 6px;
+         height: 90px;
+         margin-bottom: 7px;
      }
      .name {
          font-size: 40px;
+     }
+     .service {
+         display: inline;
+     }
+     .subtext {
+         font-size: 20pt;
      }
 }
 /* Small Tablets */
