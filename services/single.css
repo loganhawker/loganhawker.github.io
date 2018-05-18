@@ -94,6 +94,7 @@ a {
 .service {
     padding-top: 100px;
     width: 310px;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -104,6 +105,7 @@ a {
     font-weight: 600;
     display: block;
     text-align: center;
+    padding-bottom: 30px;
 }
 .desc {
     color: black;
@@ -210,4 +212,11 @@ nav {
 }
 .current {
 	color: black;
+}
+
+.subicon {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
