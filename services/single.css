@@ -199,8 +199,15 @@
          width: 400px;
     }
      .name {
-         font-size: 40pt;
+         font-size: 50pt;
     }
+     .subicon {
+         height:  130px;
+         margin-bottom: 10px;
+     }
+     .subtext {
+         font-size: 40pt;
+     }
 
 }
  .container{
