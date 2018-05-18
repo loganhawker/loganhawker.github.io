@@ -156,6 +156,7 @@
      .subtext {
          font-size: 20pt;
      }
+    
 }
 /* Small Tablets */
  @media ( min-width : 444px ) and (max-width : 823px ){
