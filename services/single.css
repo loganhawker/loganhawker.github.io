@@ -116,6 +116,9 @@
          display: inline-block;
          margin-bottom: 20px;
      }
+    .subtext {
+         text-align: center;
+     }
 /* Mobile */
  @media (max-width : 443px ){
      .container header nav {
@@ -209,11 +212,11 @@
          font-size: 50pt;
     }
      .subicon {
-         height:  130px;
+         height:  80px;
          margin-bottom: 10px;
      }
      .subtext {
-         font-size: 40pt;
+         font-size: 30pt;
      }
 
 }
