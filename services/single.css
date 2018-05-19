@@ -152,8 +152,8 @@
          font-size: 40px;
      }
      .service {
-         display: inline;
          width: 80%;
+         padding-bottom: 20px;
      }
      .subtext {
          font-size: 20pt;
@@ -188,13 +188,20 @@
          float: center;
     }
      .subtext {
-         font-size: 25pt;
+         font-size: 20pt;
      }
      .subicon {
          height: 70px;
      }
      .services {
          padding-top:100px;
+     }
+     .service {
+         width: 40%;
+         padding-bottom: 20px;
+     }
+     .desc {
+         width: 100px;
      }
 }
 /* Small Desktops */
@@ -222,6 +229,9 @@
      }
      .services {
          padding-top: 145px;
+     }
+     .service {
+         padding-bottom: 30px;
      }
 
 }
