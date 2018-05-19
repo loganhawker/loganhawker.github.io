@@ -116,6 +116,7 @@
      }
     .subtext {
          text-align: center;
+        padding-bottom: 10px;
      }
 /* Mobile */
  @media (max-width : 443px ){
@@ -225,7 +226,7 @@
          margin-bottom: 10px;
      }
      .subtext {
-         font-size: 30pt;
+         font-size: 25pt;
      }
      .services {
          padding-top: 145px;
