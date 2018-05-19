@@ -99,9 +99,7 @@
  .service {
      width: 20%;
      display: inline-block;
-}
- .services {
-     height: 100%;
+     
 }
  .subicon {
      height: 80px;
@@ -109,7 +107,7 @@
      margin-right: auto;
      display: block;
 }
-     .services2 {
+     .services {
          text-align: center;
      }
      .service {
@@ -155,6 +153,7 @@
      }
      .service {
          display: inline;
+         width: 80%;
      }
      .subtext {
          font-size: 20pt;
@@ -194,6 +193,9 @@
      .subicon {
          height: 70px;
      }
+     .services {
+         padding-top:100px;
+     }
 }
 /* Small Desktops */
  @media (min-width : 824px ) and ( max-width : 1920px ){
@@ -217,6 +219,9 @@
      }
      .subtext {
          font-size: 30pt;
+     }
+     .services {
+         padding-top: 145px;
      }
 
 }
