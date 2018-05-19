@@ -121,6 +121,7 @@
     }
      header nav ul {
          width: 100%;
+         padding-left: 0px;
     }
      nav ul li {
          margin-top: 0px;
@@ -131,12 +132,7 @@
          font-size: 20pt;
          width: 30%;
     }
-     .a {
-         margin-left: -30px;
-    }
-     .b {
-         margin-left: -3%;
-    }
+
      .hero_header {
          padding-left: 0px;
          padding-right: 0px;
@@ -178,6 +174,20 @@
          height: 30px;
          padding-right: 15px;
     }
+     .nav {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+     }
+     .a {
+         flex-grow: .8;
+     }
+     .b {
+         flex-grow: .8;
+     }
+     .c {
+         flex-grow: 20;
+     }
 }
 /* Small Tablets */
  @media ( min-width : 444px ) and (max-width : 823px ){
