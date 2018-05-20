@@ -11,6 +11,7 @@
 /* width */
  ::-webkit-scrollbar {
      width: 10px;
+     margin-left: -10px;
 }
 /* Track */
  ::-webkit-scrollbar-track {
@@ -133,7 +134,7 @@
      .title {
          padding-left: 0px;
          padding-right: 0px;
-         font-size: 40pt;
+         font-size: 30pt;
          text-align: left;
          width: 230px;
     }
