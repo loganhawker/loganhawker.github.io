@@ -80,22 +80,6 @@
      color: #636363;
 }
 /* Hero Section */
- .header {
-     padding-top: 100px;
-     width: 310px;
-     height: 50%;
-     margin-left: auto;
-     margin-right: auto;
-     display: block;
-}
- .name {
-     color: black;
-     font-size: 30pt;
-     font-weight: 600;
-     display: block;
-     text-align: center;
-     padding-bottom: 30px;
-}
  .service {
      width: 20%;
      display: inline-block;
@@ -143,9 +127,6 @@
      .subicon {
          height: 90px;
          margin-bottom: 7px;
-     }
-     .name {
-         font-size: 40px;
      }
      .service {
          width: 80%;
@@ -224,13 +205,6 @@
     }
      .subicon {
          height: 100px;
-    }
-     .header {
-         padding-top: 120px;
-         width: 400px;
-    }
-     .name {
-         font-size: 50pt;
     }
      .subicon {
          height:  80px;
