@@ -134,7 +134,8 @@
      }
      .service {
          width: 80%;
-         padding-bottom: 20px;
+         padding-bottom: 10px;
+         padding-top: 10px;
      }
      .subtext {
          font-size: 20pt;

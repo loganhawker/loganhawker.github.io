@@ -135,10 +135,12 @@
      }
      .service, .serviceunder {
          width: 80%;
-         padding-bottom: 20px;
+     }
+     .serviceunder {
+        padding-bottom: 20px;
      }
      .subtext {
-         font-size: 20pt;
+         font-size: 25pt;
      }
      .nav {
          display: flex;
@@ -156,6 +158,9 @@
      .c {
          flex-grow: 20;
          padding-right: 10px;
+     }
+     .price {
+         font-size: 20pt;
      }
 }
 /* Small Tablets */
