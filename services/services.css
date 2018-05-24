@@ -82,7 +82,7 @@
 /* Hero Section */
  .service {
      width: 20%;
-     display: inline-block;
+     display: block;
      
 }
  .subicon {
@@ -97,7 +97,12 @@
      .service {
          display: inline-block;
          margin-bottom: 20px;
+         width: 30%;
+         text-align: center;
      }
+.serviceunder {
+    display: inline-block;
+}
     .subtext {
         text-align: center;
         padding-bottom: 10px;
@@ -128,7 +133,7 @@
          height: 90px;
          margin-bottom: 7px;
      }
-     .service {
+     .service, .serviceunder {
          width: 80%;
          padding-bottom: 20px;
      }
@@ -181,7 +186,10 @@
          float: center;
     }
      .subtext {
-         font-size: 20pt;
+         font-size: 25pt;
+     }
+     .price {
+         font-size: 30pt;
      }
      .subicon {
          height: 120px;
@@ -189,12 +197,15 @@
      .services {
          padding-top:100px;
      }
-     .service {
-         width: 40%;
+     .service, .serviceunder {
+         width: 60%;
+     }
+     .serviceunder {
          padding-bottom: 20px;
      }
      .desc {
-         width: 100px;
+         width: 100%;
+         font-size: 14pt;
      }
 }
 /* Small Desktops */
@@ -204,20 +215,31 @@
          width: 100%;
     }
      .subicon {
-         height: 100px;
-    }
-     .subicon {
-         height:  80px;
+         height: 160px;
          margin-bottom: 10px;
      }
      .subtext {
-         font-size: 25pt;
+         font-size: 30pt;
      }
      .services {
          padding-top: 145px;
      }
      .service {
-         padding-bottom: 30px;
+         padding-right: 30px;
+         width: 20%;
+         vertical-align: top;
+     }
+     .price {
+         font-size: 60pt;
+     }
+     .desc {
+         font-size: 20pt;
+     }
+    .serviceunder {
+         display: inline-block;
+         margin-bottom: 20px;
+         width: 50%;
+         text-align: center;
      }
 
 }
