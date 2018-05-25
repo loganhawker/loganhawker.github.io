@@ -100,6 +100,9 @@
          width: 30%;
          text-align: center;
      }
+.price {
+    text-align: center;
+}
 .serviceunder {
     display: inline-block;
 }
