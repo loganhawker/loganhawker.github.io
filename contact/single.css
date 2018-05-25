@@ -103,10 +103,10 @@
 .serviceunder {
     display: inline-block;
 }
-    .subtext {
-        text-align: center;
-        padding-bottom: 10px;
-     }
+.subtext {
+    text-align: center;
+    padding-bottom: 10px;
+}
 /* Mobile */
  @media (max-width : 443px ){
      .container header nav {
@@ -192,9 +192,10 @@
     }
      .subtext {
          font-size: 25pt;
+         padding-bottom: 20px;
      }
      .contact {
-         font-size: 30pt;
+         font-size: 19pt;
      }
      .subicon {
          height: 120px;
@@ -219,33 +220,27 @@
          height: 100%;
          width: 100%;
     }
-     .subicon {
-         height: 160px;
-         margin-bottom: 10px;
-     }
-     .subtext {
-         font-size: 30pt;
-     }
-     .services {
-         padding-top: 145px;
-     }
-     .service {
-         padding-right: 30px;
-         width: 20%;
-         vertical-align: middle;
+      .subtext {
+         font-size: 25pt;
      }
      .contact {
-         font-size: 60pt;
+         font-size: 30pt;
+     }
+     .subicon {
+         height: 160px;
+     }
+     .services {
+         padding-top:100px;
+     }
+     .service, .serviceunder {
+         width: 60%;
+     }
+     .serviceunder {
+         padding-bottom: 20px;
      }
      .desc {
-         font-size: 20pt;
-     }
-    .serviceunder {
-         display: inline-block;
-         margin-bottom: 20px;
-         width: 50%;
-         text-align: center;
-         vertical-align: middle;
+         width: 100%;
+         font-size: 17pt;
      }
 
 }
