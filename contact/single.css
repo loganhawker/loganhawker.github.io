@@ -77,7 +77,7 @@
      color: black;
 }
  a {
-     color: #636363;
+     color: black;
 }
 /* Hero Section */
  .service {
@@ -91,15 +91,15 @@
      margin-right: auto;
      display: block;
 }
-     .services {
-         text-align: center;
-     }
-     .service {
-         display: inline-block;
-         margin-bottom: 20px;
-         width: 30%;
-         text-align: center;
-     }
+.services {
+    text-align: center;
+}
+.service {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
 .serviceunder {
     display: inline-block;
 }
@@ -134,7 +134,7 @@
          margin-bottom: 7px;
      }
      .service, .serviceunder {
-         width: 80%;
+         width: 100%;
      }
      .serviceunder {
         padding-bottom: 20px;
@@ -161,6 +161,9 @@
      }
      .contact {
          font-size: 20pt;
+     }
+     .service {
+         padding-top: 50px;
      }
 }
 /* Small Tablets */
@@ -191,20 +194,19 @@
          float: center;
     }
      .subtext {
-         font-size: 25pt;
-         padding-bottom: 20px;
+         font-size: 34pt;
      }
      .contact {
-         font-size: 19pt;
+         font-size: 30pt;
      }
      .subicon {
-         height: 120px;
+         height: 140px;
      }
      .services {
          padding-top:100px;
      }
      .service, .serviceunder {
-         width: 60%;
+         width: 100%;
      }
      .serviceunder {
          padding-bottom: 20px;
@@ -212,6 +214,9 @@
      .desc {
          width: 100%;
          font-size: 14pt;
+     }
+     .service {
+         padding-top: 50px;
      }
 }
 /* Small Desktops */
@@ -221,10 +226,10 @@
          width: 100%;
     }
       .subtext {
-         font-size: 25pt;
+         font-size: 40pt;
      }
      .contact {
-         font-size: 30pt;
+         font-size: 40pt;
      }
      .subicon {
          height: 160px;
@@ -242,7 +247,9 @@
          width: 100%;
          font-size: 17pt;
      }
-
+     .service {
+         padding-top: 70px;
+     }
 }
  .container{
      background: transparent;
