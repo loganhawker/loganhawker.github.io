@@ -1,266 +1,282 @@
 @charset "UTF-8";
 /* Body */
- ::selection {
-     background: #FF0105;
+
+::selection {
+    background: #FF0105;
     /* WebKit/Blink Browsers */
 }
- ::-moz-selection {
-     background: #FF0105;
+
+::-moz-selection {
+    background: #FF0105;
     /* Gecko Browsers */
 }
+
 /* width */
- ::-webkit-scrollbar {
-     width: 10px;
+
+::-webkit-scrollbar {
+    width: 10px;
 }
+
 /* Track */
- ::-webkit-scrollbar-track {
-     background: #ffffff;
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
 }
+
 /* Handle */
- ::-webkit-scrollbar-thumb {
-     background: #808080;
+
+::-webkit-scrollbar-thumb {
+    background: #808080;
 }
+
 /* Handle on hover */
- ::-webkit-scrollbar-thumb:hover {
-     background: #525252;
+
+::-webkit-scrollbar-thumb:hover {
+    background: #525252;
 }
- body {
-     font-family: 'Roboto', sans-serif;
-     background-color: #FFFFFF;
-     margin-top: 0%;
-     margin-right: 0%;
-     margin-bottom: 0%;
-     margin-left: 0%;
-     font-style: normal;
-     font-weight: 200;
-     width: 100%;
-     height: 100%;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    font-style: normal;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
 }
+
 /* Container */
- .container {
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-     height: 100%;
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
+
 /* Navigation */
- header {
-     width: 100%;
-     height: 0%;
-     background-color: transparent;
+
+header {
+    width: 100%;
+    height: 0%;
+    background-color: transparent;
 }
- nav {
-     float: left;
-     width: 100%;
-     text-align: center;
-     padding-bottom: 20px;
+
+nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
- header nav ul {
-     list-style: none;
-     float: center;
+
+header nav ul {
+    list-style: none;
+    float: center;
 }
- nav ul li {
-     float: left;
-     color: #636363;
-     font-size: 35px;
-     text-align: left;
-     margin-top: 10px;
-     margin-right: 40px;
-     letter-spacing: 1px;
-     font-weight: bold;
+
+nav ul li {
+    float: left;
+    color: #636363;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
- ul li a {
-     color: #636363;
-     text-decoration: none;
+
+ul li a {
+    color: #636363;
+    text-decoration: none;
 }
- ul li:hover a {
-     color: black;
+
+ul li:hover a {
+    color: black;
 }
- a {
-     color: black;
+
+a {
+    color: black;
 }
+
 /* Hero Section */
- .service {
-     width: 20%;
-     display: block;
-     
+
+.service {
+    width: 20%;
+    display: block;
+
 }
- .subicon {
-     height: 80px;
-     margin-left: auto;
-     margin-right: auto;
-     display: block;
+
+.subicon {
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
 .services {
     text-align: center;
 }
+
 .service {
     display: inline-block;
     margin-bottom: 20px;
     width: 30%;
     text-align: center;
 }
-.serviceunder {
-    display: inline-block;
-}
+
 .subtext {
     text-align: center;
     padding-bottom: 10px;
 }
+
 /* Mobile */
- @media (max-width : 443px ){
-     .container header nav {
-         margin-top: 0px;
-         margin-right: 0px;
-         margin-bottom: 0px;
-         margin-left: 0px;
-         width: 100%;
+
+@media (max-width: 443px) {
+    .container header nav {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
     }
-     header nav ul {
-         width: 100%;
-         padding-left: 0px;
+    header nav ul {
+        width: 100%;
+        padding-left: 0px;
     }
-     nav ul li {
-         margin-top: 0px;
-         margin-right: 0%;
-         margin-bottom: 0px;
-         margin-left: 0px;
-         text-align: center;
-         font-size: 20pt;
-         width: 30%;
+    nav ul li {
+        margin-top: 0px;
+        margin-right: 0%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 20pt;
+        width: 30%;
     }
-     .subicon {
-         height: 90px;
-         margin-bottom: 7px;
-     }
-     .service, .serviceunder {
-         width: 100%;
-     }
-     .serviceunder {
-        padding-bottom: 20px;
-     }
-     .subtext {
-         font-size: 25pt;
-     }
-     .nav {
-         display: flex;
-         flex-direction: row;
-         flex-wrap: nowrap;
-     }
-     .a {
-         flex-grow: .8;
-         padding-left: 5px;
-     }
-     .b {
-         flex-grow: .8;
-         margin-left: -5px
-     }
-     .c {
-         flex-grow: 20;
-         padding-right: 10px;
-     }
-     .contact {
-         font-size: 20pt;
-     }
-     .service {
-         padding-top: 50px;
-     }
-}
-/* Small Tablets */
- @media ( min-width : 444px ) and (max-width : 823px ){
-     .container header nav {
-         margin-top: 0px;
-         margin-right: 0px;
-         margin-bottom: 0px;
-         margin-left: 0px;
-         width: 100%;
-         float: center;
-         overflow: auto;
-         background-color: transparent;
+    .subicon {
+        height: 90px;
+        margin-bottom: 7px;
     }
-     header nav ul {
-         padding: 0px;
-         float: center;
+    .service {
+        width: 100%;
     }
-     nav ul li {
-         margin-top: 0px;
-         margin-right: 0px;
-         margin-bottom: 0px;
-         margin-left: 29px;
-         text-align: center;
-         padding-top: 0px;
-         padding-bottom: 0px;
-         font-size: 20pt;
-         float: center;
+    .subtext {
+        font-size: 25pt;
     }
-     .subtext {
-         font-size: 34pt;
-     }
-     .contact {
-         font-size: 25pt;
-     }
-     .subicon {
-         height: 150px;
-     }
-     .services {
-         padding-top:100px;
-     }
-     .service, .serviceunder {
-         width: 100%;
-     }
-     .serviceunder {
-         padding-bottom: 20px;
-     }
-     .desc {
-         width: 100%;
-         font-size: 14pt;
-     }
-     .service {
-         padding-top: 50px;
-     }
-}
-/* Small Desktops */
- @media (min-width : 824px ) and ( max-width : 1920px ){
-     div {
-         height: 100%;
-         width: 100%;
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
-      .subtext {
-         font-size: 40pt;
-     }
-     .contact {
-         font-size: 35pt;
-     }
-     .subicon {
-         height: 160px;
-     }
-     .services {
-         padding-top:100px;
-     }
-     .service, .serviceunder {
-         width: 60%;
-     }
-     .serviceunder {
-         padding-bottom: 20px;
-     }
-     .desc {
-         width: 100%;
-         font-size: 17pt;
-     }
-     .service {
-         padding-top: 70px;
-     }
-}
- .container{
-     background: transparent;
-}
- nav {
-     background-color: transparent;
-}
- .nav {
-     float: center;
-}
- .current {
-     color: black;
+    .a {
+        flex-grow: .8;
+        padding-left: 5px;
+    }
+    .b {
+        flex-grow: .8;
+        margin-left: -5px
+    }
+    .c {
+        flex-grow: 20;
+        padding-right: 10px;
+    }
+    .contact {
+        font-size: 20pt;
+    }
+    .service {
+        padding-top: 50px;
+    }
 }
 
+/* Small Tablets */
+
+@media ( min-width: 444px) and (max-width: 823px) {
+    .container header nav {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+        float: center;
+        overflow: auto;
+        background-color: transparent;
+    }
+    header nav ul {
+        padding: 0px;
+        float: center;
+    }
+    nav ul li {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 29px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 20pt;
+        float: center;
+    }
+    .subtext {
+        font-size: 34pt;
+    }
+    .contact {
+        font-size: 25pt;
+    }
+    .subicon {
+        height: 150px;
+    }
+    .services {
+        padding-top: 100px;
+    }
+    .service {
+        width: 100%;
+    }
+    .service {
+        padding-top: 50px;
+    }
+}
+
+/* Small Desktops */
+
+@media (min-width: 824px) and ( max-width: 1920px) {
+    div {
+        height: 100%;
+        width: 100%;
+    }
+    .subtext {
+        font-size: 40pt;
+    }
+    .contact {
+        font-size: 35pt;
+    }
+    .subicon {
+        height: 160px;
+    }
+    .services {
+        padding-top: 100px;
+    }
+    .service {
+        width: 60%;
+    }
+    .service {
+        padding-top: 70px;
+    }
+}
+
+.container {
+    background: transparent;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav {
+    float: center;
+}
+
+.current {
+    color: black;
+}
