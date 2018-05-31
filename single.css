@@ -89,7 +89,7 @@ nav ul li {
     margin-top: 10px;
     margin-right: 40px;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 ul li a {
@@ -109,7 +109,7 @@ a {
     color: #000000;
     text-align: left;
     font-size: 60pt;
-    font-weight: bolder;
+    font-weight: 700;
     margin-top: 50px;
     margin-right: 0px;
     margin-bottom: 0px;
