@@ -135,6 +135,11 @@ a {
     border-radius: 15px;
 }
 
+.hidden {
+    display: none;
+    
+}
+
 /* Mobile */
 
 @media (max-width: 443px) {
