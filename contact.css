@@ -188,6 +188,9 @@ a {
     .service {
         padding-top: 50px;
     }
+    nav ul li {
+        letter-spacing: .02em
+    }
 }
 
 /* Small Tablets */

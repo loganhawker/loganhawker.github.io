@@ -88,7 +88,7 @@ nav ul li {
     text-align: left;
     margin-top: 10px;
     margin-right: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: 700;
 }
 
@@ -220,6 +220,9 @@ a {
     .c {
         flex-grow: 20;
         padding-right: 15px;
+    }
+    nav ul li {
+        letter-spacing: .02em
     }
 }
 

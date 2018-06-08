@@ -197,6 +197,9 @@ a {
     .price {
         font-size: 20pt;
     }
+    nav ul li {
+        letter-spacing: .02em
+    }
 }
 
 /* Small Tablets */

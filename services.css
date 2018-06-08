@@ -137,7 +137,7 @@ a {
 
 .hidden {
     display: none;
-    
+
 }
 
 /* Mobile */
@@ -191,6 +191,9 @@ a {
     .c {
         flex-grow: 20;
         padding-right: 15px;
+    }
+    nav ul li {
+        letter-spacing: .02em
     }
 }
 
