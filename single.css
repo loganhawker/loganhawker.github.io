@@ -37,7 +37,8 @@
 
 /* On.Load Animation */
 
-.bg-png, .hero {
+.bg-png,
+.hero {
     -webkit-animation: fadein .3s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein .3s;
@@ -225,10 +226,9 @@ a {
         margin-bottom: 0px;
         margin-left: 0px;
         text-align: center;
-        font-size: 18pt;
+        font-size: 16pt;
         width: 30%;
     }
-
     .hero_header {
         padding-left: 0px;
         padding-right: 0px;
