@@ -435,9 +435,38 @@ a {
         padding-left: 9%;
         margin-top: -1.5%;
     }
+}
+
+/* Small Desktops */
+
+@media (min-width: 824px) and ( max-width: 1920px) {
+    .hero {
+        width: 580px;
+    }
+    .bg-png {
+        height: 90%;
+        float: center;
+        margin-left: 50%;
+        position: fixed;
+        bottom: 0;
+        pointer-events: none;
+        z-index: -1;
+    }
+    .ico {
+        color: transparent;
+    }
+    .social {
+        height: 35px;
+        margin-right: 25px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    div {
+        height: 100%;
+        width: 100%;
+    }
     
-    /* OnLoad Animation */
-    
+    /* OnLoad Animation */    
     .hero, .bg-png {
         -webkit-animation: fadein .3s;
         /* Safari, Chrome and Opera > 12.1 */
@@ -497,36 +526,6 @@ a {
         to {
             opacity: 1;
         }
-    }
-}
-
-/* Small Desktops */
-
-@media (min-width: 824px) and ( max-width: 1920px) {
-    .hero {
-        width: 580px;
-    }
-    .bg-png {
-        height: 90%;
-        float: center;
-        margin-left: 50%;
-        position: fixed;
-        bottom: 0;
-        pointer-events: none;
-        z-index: -1;
-    }
-    .ico {
-        color: transparent;
-    }
-    .social {
-        height: 35px;
-        margin-right: 25px;
-        margin-top: -10px;
-        margin-bottom: 20px;
-    }
-    div {
-        height: 100%;
-        width: 100%;
     }
 }
 
