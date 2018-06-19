@@ -439,7 +439,7 @@ a {
 
     /* On.Load Animation */
     .hero,
-    bg-png {
+    .bg-png {
         -webkit-animation: fadein .3s;
         /* Safari, Chrome and Opera > 12.1 */
         -moz-animation: fadein .3s;
