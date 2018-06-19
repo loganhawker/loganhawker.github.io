@@ -37,7 +37,7 @@
 
 /* On.Load Animation */
 
-body {
+.services {
     -webkit-animation: fadein .3s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein .3s;
