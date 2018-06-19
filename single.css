@@ -205,9 +205,98 @@ a {
     letter-spacing: 1px;
 }
 
+/* Smaller Mobile */
+
+@media (max-width: 357px) {
+    .container header nav {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    header nav ul {
+        width: 100%;
+        padding-left: 0px;
+    }
+    nav ul li {
+        margin-top: 0px;
+        margin-right: 0%;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 18pt;
+        width: 30%;
+    }
+
+    .hero_header {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 40pt;
+        text-align: left;
+        width: 230px;
+    }
+    .social {
+        height: 35px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .tagline {
+        margin-top: 2px;
+        margin-bottom: 10px;
+        font-size: 20pt;
+        width: 240px;
+    }
+    .hero {
+        padding-top: 15%;
+        width: 80%;
+    }
+    .bg-png {
+        height: 90%;
+        margin-left: 20%;
+        position: fixed;
+        bottom: 0;
+        z-index: -1;
+        opacity: .4;
+    }
+    .socials {
+        width: 240px;
+        padding-top: 5px;
+    }
+    .ig,
+    .tw {
+        padding-right: 4%;
+    }
+    .yt,
+    .sc {
+        height: 30px;
+        padding-right: 15px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .a {
+        flex-grow: 8;
+        padding-left: 5px;
+    }
+    .b {
+        flex-grow: 30;
+        margin-left: -3%;
+    }
+    .c {
+        flex-grow: 20;
+        padding-right: 15px;
+    }
+    nav ul li {
+        letter-spacing: .02em
+    }
+}
+
 /* Mobile */
 
-@media (max-width: 443px) {
+@media (min-width: 358px) and (max-width: 443px) {
     .container header nav {
         margin-top: 0px;
         margin-right: 0px;
