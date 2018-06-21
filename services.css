@@ -321,7 +321,7 @@ a {
 
 /* Small Tablets */
 
-@media ( min-width: 444px) and (max-width: 1083px) {
+@media ( min-width: 444px) and (max-width: 823px) {
     .container header nav {
         margin-top: 0px;
         margin-right: 0px;
@@ -370,7 +370,7 @@ a {
 
 /* Small Desktops */
 
-@media (min-width: 1084px) and ( max-width: 1920px) {
+@media (min-width: 824px) and ( max-width: 1920px) {
     div {
         height: 100%;
         width: 100%;
