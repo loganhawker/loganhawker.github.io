@@ -189,7 +189,7 @@ a {
 
 .service {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 30%;
     text-align: center;
 }
@@ -333,7 +333,7 @@ a {
         padding-right: 15px;
     }
     .price {
-        font-size: 20pt;
+        font-size: 25pt;
     }
     nav ul li {
         letter-spacing: .02em
@@ -375,7 +375,7 @@ a {
         font-size: 30pt;
     }
     .subicon {
-        height: 120px;
+        height: 130px;
     }
     .services {
         padding-top: 100px;
