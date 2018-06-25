@@ -207,6 +207,31 @@ a {
     padding-bottom: 10px;
 }
 
+
+.sl {
+    padding-right: 19px;
+}
+
+.sr {
+    padding-left: 11px;
+}
+
+.container {
+    background: transparent;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav {
+    float: center;
+}
+
+.current {
+    color: black;
+}
+
 /* Mobile iPhone 5 */
 
 @media (max-width: 357px) {
@@ -305,8 +330,6 @@ a {
     }
     .serviceunder {
         width: 80%;
-    }
-    .serviceunder {
         padding-bottom: 20px;
     }
     .desc {
@@ -372,10 +395,11 @@ a {
         font-size: 25pt;
     }
     .price {
-        font-size: 30pt;
+        font-size: 25pt;
     }
     .subicon {
         height: 130px;
+        margin-bottom: 7px;
     }
     .services {
         padding-top: 100px;
@@ -431,20 +455,4 @@ a {
         vertical-align: middle;
     }
 
-}
-
-.container {
-    background: transparent;
-}
-
-nav {
-    background-color: transparent;
-}
-
-.nav {
-    float: center;
-}
-
-.current {
-    color: black;
 }

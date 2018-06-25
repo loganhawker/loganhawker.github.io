@@ -207,6 +207,35 @@ a {
 
 }
 
+.container {
+    background: transparent;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.nav {
+    float: center;
+}
+
+.current {
+    color: black;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.sl {
+    padding-right: 13px;
+}
+
+.sr {
+    padding-left: 9px;
+}
+
 /* Mobile */
 
 @media (max-width: 357px) {
@@ -395,25 +424,4 @@ a {
         margin-right: 2%; 
     }
 
-}
-
-.container {
-    background: transparent;
-}
-
-nav {
-    background-color: transparent;
-}
-
-.nav {
-    float: center;
-}
-
-.current {
-    color: black;
-}
-
-.link {
-    color: black;
-    text-decoration: none;
 }
