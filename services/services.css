@@ -231,8 +231,11 @@ a {
         width: 30%;
     }
     .subicon {
-        height: 90px;
+        height: 110px;
         margin-bottom: 7px;
+    }
+    .service {
+        padding-top: 20px;
     }
     .service,
     .serviceunder {
@@ -242,7 +245,7 @@ a {
         padding-bottom: 20px;
     }
     .subtext {
-        font-size: 25pt;
+        font-size: 22pt;
     }
     .nav {
         display: flex;
@@ -301,7 +304,7 @@ a {
         width: 100%;
     }
     .serviceunder {
-        width: 70%;
+        width: 80%;
     }
     .serviceunder {
         padding-bottom: 20px;
