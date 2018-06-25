@@ -369,9 +369,11 @@ a {
     .services {
         padding-top: 100px;
     }
-    .service,
+    .service {
+        width: 90%;
+    }
     .serviceunder {
-        width: 60%;
+        width: 40%;
     }
     .serviceunder {
         padding-bottom: 20px;
