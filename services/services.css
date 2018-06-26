@@ -272,6 +272,9 @@ nav {
     .subtext {
         font-size: 22pt;
     }
+    .desc {
+        font-size: 18px;
+    }
     .nav {
         display: flex;
         flex-direction: row;
@@ -325,7 +328,7 @@ nav {
         margin-bottom: 7px;
     }
     .service {
-        padding-top: 40px;
+        padding-top: 30px;
         width: 100%;
     }
     .serviceunder {
@@ -409,14 +412,12 @@ nav {
         padding-top: 40px;
     }
     .serviceunder {
-        width: 40%;
-    }
-    .serviceunder {
+        width: 330px;
         padding-bottom: 20px;
     }
     .desc {
         width: 100%;
-        font-size: 14pt;
+        font-size: 18pt;
     }
 }
 
@@ -450,7 +451,7 @@ nav {
     .serviceunder {
         display: inline-block;
         margin-bottom: 20px;
-        width: 30%;
+        width: 450px;
         text-align: center;
         vertical-align: middle;
     }
