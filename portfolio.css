@@ -203,6 +203,11 @@ a {
     padding-bottom: 10px;
 }
 
+.bg-png {
+    width: 200px;
+    float: right;
+}
+
 /* Mobile */
 @media (max-width: 357px) {
     .container header nav {
@@ -261,6 +266,10 @@ a {
     nav ul li {
         letter-spacing: .02em
     }
+    .bg-png {
+        width: 100px;
+    }
+
 }
 
 @media (min-width: 358px) and (max-width: 443px) {
@@ -320,6 +329,9 @@ a {
     nav ul li {
         letter-spacing: .02em
     }
+    .bg-png {
+        width: 120px;
+    }
 }
 
 /* Small Tablets */
@@ -368,6 +380,9 @@ a {
     .service {
         padding-top: 50px;
     }
+    .bg-png {
+        width: 150px;
+    }
 }
 
 /* Small Desktops */
@@ -401,6 +416,7 @@ a {
     margin-right: auto;
     height: 100%;
     }
+    
 }
 
 .container {
