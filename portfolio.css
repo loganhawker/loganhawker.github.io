@@ -187,6 +187,10 @@ a {
     text-align: center;
 }
 
+.ico {
+    color: transparent;
+}
+
 .service {
     display: inline-block;
     margin-bottom: 20px;
