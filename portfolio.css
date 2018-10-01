@@ -391,6 +391,12 @@ a {
     .service {
         padding-top: 70px;
     }
+    .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    }
 }
 
 .container {
@@ -407,4 +413,17 @@ nav {
 
 .current {
     color: black;
+}
+
+.youtube-embed {
+
+}
+
+.bg-png {
+    float: right;
+}
+
+.tagline {
+    width: 290px;
+    font-size: 15pt;
 }
