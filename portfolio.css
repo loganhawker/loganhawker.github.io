@@ -387,7 +387,7 @@ a {
 
 /* Small Desktops */
 
-@media (min-width: 824px) and ( max-width: 1920px) {
+@media (min-width: 1100px) and ( max-width: 1920px) {
     div {
         height: 100%;
         width: 100%;
@@ -417,8 +417,10 @@ a {
         height: 100%;
     }
     .main {
-        width: 900px;
+        width: 1100px;
         margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     
 }
@@ -445,7 +447,7 @@ nav {
 
 .bg-png {
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .tagline {
