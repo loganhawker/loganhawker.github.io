@@ -302,3 +302,20 @@ a {
 .tall {
     padding-bottom: 10px;
 }
+
+.examples {
+    background: #f0f0f0;
+    height: 400px;
+    width: 100%;
+}
+.services {
+    display: inline-block;
+    width: 100%;
+}
+.youtube-embed {
+    display: block;
+    margin: auto;
+    width: 50%;
+    align-content: center;
+    align-self: center;
+}
