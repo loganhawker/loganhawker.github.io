@@ -54,6 +54,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -65,6 +66,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -76,6 +78,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -87,6 +90,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -98,6 +102,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -215,10 +220,12 @@ a {
         margin-left: 0px;
         width: 100%;
     }
+
     header nav ul {
         width: 100%;
         padding-left: 0px;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0%;
@@ -228,6 +235,7 @@ a {
         font-size: 16pt;
         width: 30%;
     }
+
     .hero_header {
         padding-left: 0px;
         padding-right: 0px;
@@ -235,21 +243,25 @@ a {
         text-align: left;
         width: 230px;
     }
+
     .social {
         height: 35px;
         padding-bottom: 10px;
         padding-right: 10px;
     }
+
     .tagline {
         margin-top: 2px;
         margin-bottom: 10px;
         font-size: 20pt;
         width: 240px;
     }
+
     .hero {
         padding-top: 15%;
         width: 80%;
     }
+
     .bg-png {
         height: 90%;
         margin-left: 20%;
@@ -258,36 +270,44 @@ a {
         z-index: -1;
         opacity: .4;
     }
+
     .socials {
         width: 240px;
         padding-top: 5px;
     }
+
     .ig,
     .tw {
         padding-right: 4%;
     }
+
     .yt,
     .sc {
         height: 30px;
         padding-right: 15px;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
     .a {
         flex-grow: 8;
         padding-left: 5px;
     }
+
     .b {
         flex-grow: 30;
         margin-left: -3%;
     }
+
     .c {
         flex-grow: 20;
         padding-right: 15px;
     }
+
     nav ul li {
         letter-spacing: .02em
     }
@@ -303,10 +323,12 @@ a {
         margin-left: 0px;
         width: 100%;
     }
+
     header nav ul {
         width: 100%;
         padding-left: 0px;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0%;
@@ -324,21 +346,25 @@ a {
         text-align: left;
         width: 230px;
     }
+
     .social {
         height: 35px;
         padding-bottom: 10px;
         padding-right: 10px;
     }
+
     .tagline {
         margin-top: 2px;
         margin-bottom: 10px;
         font-size: 20pt;
         width: 240px;
     }
+
     .hero {
         padding-top: 15%;
         width: 80%;
     }
+
     .bg-png {
         height: 90%;
         margin-left: 20%;
@@ -347,36 +373,44 @@ a {
         z-index: -1;
         opacity: .4;
     }
+
     .socials {
         width: 240px;
         padding-top: 5px;
     }
+
     .ig,
     .tw {
         padding-right: 4%;
     }
+
     .yt,
     .sc {
         height: 30px;
         padding-right: 15px;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
     .a {
         flex-grow: 8;
         padding-left: 5px;
     }
+
     .b {
         flex-grow: 30;
         margin-left: -3%;
     }
+
     .c {
         flex-grow: 20;
         padding-right: 15px;
     }
+
     nav ul li {
         letter-spacing: .02em
     }
@@ -384,7 +418,7 @@ a {
 
 /* Small Tablets */
 
-@media ( min-width: 444px) and (max-width: 823px) {
+@media (min-width: 444px) and (max-width: 823px) {
     .container header nav {
         margin-top: 0px;
         margin-right: 0px;
@@ -395,10 +429,12 @@ a {
         overflow: auto;
         background-color: transparent;
     }
+
     header nav ul {
         padding: 0px;
         float: center;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0px;
@@ -410,24 +446,29 @@ a {
         font-size: 20pt;
         float: center;
     }
+
     .hero_header {
         font-size: 40pt;
         padding-left: 9%;
     }
+
     .tagline {
         font-size: 17pt;
         padding-left: 9%;
         width: 400px;
     }
+
     .hero {
         width: 100%;
         margin-left: 0%;
         padding-top: 50px;
     }
+
     .social {
         height: 30px;
         padding-right: 2%;
     }
+
     .bg-png {
         height: 80%;
         float: center;
@@ -437,6 +478,7 @@ a {
         pointer-events: none;
         z-index: -1;
     }
+
     .socials {
         padding-left: 9%;
         margin-top: -1.5%;
@@ -445,10 +487,11 @@ a {
 
 /* Small Desktops */
 
-@media (min-width: 824px) and ( max-width: 1920px) {
+@media (min-width: 824px) and (max-width: 1419px) {
     .hero {
         width: 580px;
     }
+
     .bg-png {
         height: 90%;
         float: center;
@@ -458,18 +501,58 @@ a {
         pointer-events: none;
         z-index: -1;
     }
+
     .ico {
         color: transparent;
     }
+
     .social {
         height: 35px;
         margin-right: 25px;
         margin-top: -10px;
         margin-bottom: 20px;
     }
+
     div {
         height: 100%;
         width: 100%;
+    }
+}
+
+@media (min-width: 1420px) {
+
+    .hero {
+        width: 580px;
+    }
+
+    .bg-png {
+        height: 90%;
+        float: center;
+        margin-left: 50%;
+        position: fixed;
+        bottom: 0;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    .ico {
+        color: transparent;
+    }
+
+    .social {
+        height: 35px;
+        margin-right: 25px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    div {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        zoom: 125%;
     }
 }
 

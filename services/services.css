@@ -53,6 +53,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -64,6 +65,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -75,6 +77,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -86,6 +89,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -97,6 +101,7 @@
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -242,10 +247,12 @@ nav {
         margin-left: 0px;
         width: 100%;
     }
+
     header nav ul {
         width: 100%;
         padding-left: 0px;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0%;
@@ -255,46 +262,58 @@ nav {
         font-size: 16pt;
         width: 30%;
     }
+
     .subicon {
         height: 110px;
         margin-bottom: 7px;
     }
+
     .service {
         padding-top: 20px;
     }
+
     .service,
     .serviceunder {
         width: 80%;
     }
+
     .serviceunder {
         padding-bottom: 20px;
     }
+
     .subtext {
         font-size: 22pt;
     }
+
     .desc {
         font-size: 18px;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
     .a {
         flex-grow: 8;
         padding-left: 5px;
     }
+
     .b {
         flex-grow: 30;
         margin-left: -3%;
     }
+
     .c {
         flex-grow: 20;
         padding-right: 15px;
     }
+
     .price {
         font-size: 20pt;
     }
+
     nav ul li {
         letter-spacing: .02em
     }
@@ -310,10 +329,12 @@ nav {
         margin-left: 0px;
         width: 100%;
     }
+
     header nav ul {
         width: 100%;
         padding-left: 0px;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0%;
@@ -323,44 +344,55 @@ nav {
         font-size: 20pt;
         width: 30%;
     }
+
     .subicon {
         height: 130px;
         margin-bottom: 7px;
     }
+
     .service {
         padding-top: 30px;
         width: 100%;
     }
+
     .serviceunder {
         width: 80%;
         padding-bottom: 20px;
     }
+
     .desc {
         font-size: 23px;
     }
+
     .subtext {
         font-size: 25pt;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
     }
+
     .a {
         flex-grow: 8;
         padding-left: 5px;
     }
+
     .b {
         flex-grow: 30;
         margin-left: -3%;
     }
+
     .c {
         flex-grow: 20;
         padding-right: 15px;
     }
+
     .price {
         font-size: 25pt;
     }
+
     nav ul li {
         letter-spacing: .02em
     }
@@ -368,7 +400,7 @@ nav {
 
 /* Small Tablets */
 
-@media ( min-width: 444px) and (max-width: 823px) {
+@media (min-width: 444px) and (max-width: 823px) {
     .container header nav {
         margin-top: 0px;
         margin-right: 0px;
@@ -379,10 +411,12 @@ nav {
         overflow: auto;
         background-color: transparent;
     }
+
     header nav ul {
         padding: 0px;
         float: center;
     }
+
     nav ul li {
         margin-top: 0px;
         margin-right: 0px;
@@ -394,27 +428,34 @@ nav {
         font-size: 20pt;
         float: center;
     }
+
     .subtext {
         font-size: 25pt;
     }
+
     .price {
         font-size: 25pt;
     }
+
     .subicon {
         height: 130px;
         margin-bottom: 7px;
     }
+
     .services {
         padding-top: 100px;
     }
+
     .service {
         width: 90%;
         padding-top: 40px;
     }
+
     .serviceunder {
         width: 330px;
         padding-bottom: 20px;
     }
+
     .desc {
         width: 100%;
         font-size: 18pt;
@@ -423,31 +464,38 @@ nav {
 
 /* Small Desktops */
 
-@media (min-width: 824px) and ( max-width: 1920px) {
+@media (min-width: 824px) and (max-width: 1419px) {
     div {
         height: 100%;
         width: 100%;
     }
+
     .subicon {
         height: 170px;
         margin-bottom: 10px;
     }
+
     .subtext {
         font-size: 33pt;
     }
+
     .services {
         padding-top: 145px;
     }
+
     .service {
         width: 80%;
         vertical-align: middle;
     }
+
     .price {
         font-size: 28pt;
     }
+
     .desc {
         font-size: 22pt;
     }
+
     .serviceunder {
         display: inline-block;
         margin-bottom: 20px;
@@ -456,4 +504,50 @@ nav {
         vertical-align: middle;
     }
 
+}
+
+@media (min-width: 1420px) {
+
+    div {
+        height: 100%;
+        width: 100%;
+    }
+
+    .subicon {
+        height: 170px;
+        margin-bottom: 10px;
+    }
+
+    .subtext {
+        font-size: 33pt;
+    }
+
+    .services {
+        padding-top: 145px;
+    }
+
+    .service {
+        width: 80%;
+        vertical-align: middle;
+    }
+
+    .price {
+        font-size: 28pt;
+    }
+
+    .desc {
+        font-size: 22pt;
+    }
+
+    .serviceunder {
+        display: inline-block;
+        margin-bottom: 20px;
+        width: 450px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    body {
+        zoom: 125%;
+    }
 }

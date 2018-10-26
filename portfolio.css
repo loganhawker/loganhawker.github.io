@@ -278,6 +278,7 @@ a {
     display: inline-block;
     width: 100%;
     margin-top: 70px;
+    padding-bottom: 25px;
 }
 
 .work {
@@ -305,17 +306,20 @@ a {
 
 .examples {
     background: #f0f0f0;
-    height: 400px;
+    height: auto;
     width: 100%;
 }
+
 .services {
-    display: inline-block;
-    width: 100%;
-}
-.youtube-embed {
     display: block;
+    width: 100;
+    padding: 10px 0px 10px 0px;
+}
+
+.youtube-embed {
+    display: inline-block;
     margin: auto;
-    width: 50%;
-    align-content: center;
-    align-self: center;
+    height: auto;
+    width: auto;
+    padding: 10px 10px 10px 10px;
 }
