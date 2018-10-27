@@ -206,16 +206,16 @@ a {
     }
 
     .lightwidget-widget {
-        width: 70%;
+        width: 50%;
     }
 
     .art {
-        width: 250px;
+        width: 170px;
         height: 160px;
     }
 
     .arts {
-        width: 800px;
+        width: 600px;
     }
 
 }
@@ -259,12 +259,12 @@ a {
     }
 
     .art {
-        width: 300px;
+        width: 210px;
         height: 200px;
     }
 
     .arts {
-        width: 1000px;
+        width: 680px;
     }
 
 }
