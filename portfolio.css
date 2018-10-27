@@ -364,10 +364,15 @@ a {
 }
 
 .art {
-    background: #e7e7e7;
+    background: white;
     border-radius: 10px;
     display: inline-block;
     margin: 5px;
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
 }
 
 .iframe {
