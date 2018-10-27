@@ -334,14 +334,14 @@ a {
 }
 
 .iframe {
-    border: 0px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -o-border-radius: 10px;
     position: relative;
     overflow: hidden;
     width: 600px;
-    height: 340px;
+    height: 338px;
+    vertical-align: middle;
 }
 
 .white {
@@ -350,4 +350,7 @@ a {
 
 .des {
     margin-left: 8px;
+}
+iframe {
+    margin-top: -1px;
 }
