@@ -371,6 +371,10 @@ a {
     overflow: hidden;
 }
 
+.art img {
+    display: block;
+}
+
 .image {
     max-width: 100%;
 }
