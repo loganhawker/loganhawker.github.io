@@ -155,119 +155,6 @@ a {
     float: right;
 }
 
-/* Mobile */
-@media (max-width: 357px) {
-    .subtext {
-        font-size: 25pt;
-    }
-
-    .bg-png {
-        width: 100px;
-    }
-
-}
-
-@media (min-width: 358px) and (max-width: 443px) {
-    .subtext {
-        font-size: 25pt;
-    }
-
-    .bg-png {
-        width: 120px;
-    }
-}
-
-/* Small Tablets */
-
-@media (min-width: 444px) and (max-width: 1229px) {
-    .container {
-        ~ width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-    }
-
-    .subtext {
-        font-size: 40pt;
-    }
-
-    .services {
-        padding-top: 100px;
-    }
-
-    .bg-png {
-        width: 215px;
-    }
-
-    .main {
-        margin: auto;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .lightwidget-widget {
-        width: 50%;
-    }
-
-    .art {
-        width: 170px;
-        height: 160px;
-    }
-
-    .arts {
-        width: 600px;
-    }
-
-}
-
-/* Small Desktops */
-
-@media (min-width: 1230px) {
-    div {
-        height: 100%;
-        width: 100%;
-    }
-
-    .subtext {
-        font-size: 40pt;
-    }
-
-    .services {
-        padding-top: 100px;
-    }
-
-    .container {
-        ~ width: 55%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
-    }
-
-    .main {
-        width: 1100px;
-        margin: auto;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .bg-png {
-        width: 200px;
-    }
-
-    .lightwidget-widget {
-        width: 650px;
-    }
-
-    .art {
-        width: 210px;
-        height: 200px;
-    }
-
-    .arts {
-        width: 680px;
-    }
-
-}
 
 .container {
     background: transparent;
@@ -275,7 +162,7 @@ a {
 
 .bg-png {
     float: right;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .tagline {
@@ -287,13 +174,8 @@ a {
 }
 
 .main {
-    padding-top: 70px;
     height: auto;
     padding-bottom: 60px;
-}
-
-.social {
-    height: 35px;
 }
 
 .socials {
@@ -354,7 +236,6 @@ a {
     display: inline-block;
     margin: auto;
     height: auto;
-    width: 400px;
     margin: 10px 10px 40px 10px;
 }
 
@@ -371,8 +252,13 @@ a {
     overflow: hidden;
 }
 
-.image {
-    max-width: 100%;
+.art img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .iframe {
@@ -401,4 +287,183 @@ a {
 
 iframe {
     margin-top: -1px;
+}
+
+
+/* Mobile */
+@media (max-width: 357px) {
+    .subtext {
+        font-size: 25pt;
+    }
+
+    .bg-png {
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 358px) and (max-width: 699px) {
+    .subtext {
+        font-size: 35pt;
+    }
+
+    .bg-png {
+        width: 170px;
+    }
+
+    .main {
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .youtube-embed {
+        zoom: .9;
+    }
+
+    .social {
+        height: 25px;
+    }
+
+    .main {
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 50px;
+    }
+
+    .youtube-embed {
+        zoom: .9;
+    }
+
+    .lightwidget-widget {
+        width: 550px;
+    }
+
+    .art {
+        width: 170px;
+        height: 160px;
+    }
+
+    .arts {
+        width: 600px;
+    }
+
+    .social {
+        height: 35px;
+    }
+
+    .container {
+        zoom: .8;
+    }
+}
+
+/* Small Tablets */
+
+@media (min-width: 700px) and (max-width: 1229px) {
+    .container {
+        ~ width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .subtext {
+        font-size: 40pt;
+    }
+
+    .services {
+        padding-top: 100px;
+    }
+
+    .bg-png {
+        width: 205px;
+    }
+
+    .main {
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 60px;
+    }
+
+    .youtube-embed {
+        zoom: .9;
+    }
+
+    .lightwidget-widget {
+        width: 550px;
+    }
+
+    .art {
+        width: 170px;
+        height: 160px;
+    }
+
+    .arts {
+        width: 600px;
+    }
+
+    .social {
+        height: 35px;
+    }
+
+}
+
+/* Small Desktops */
+
+@media (min-width: 1230px) {
+    div {
+        height: 100%;
+        width: 100%;
+    }
+
+    .subtext {
+        font-size: 40pt;
+    }
+
+    .services {
+        padding-top: 30px;
+    }
+
+    .container {
+        ~ width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .main {
+        width: 1100px;
+        margin: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 70px;
+    }
+
+    .bg-png {
+        width: 200px;
+    }
+
+    .lightwidget-widget {
+        width: 660px;
+    }
+
+    .art {
+        width: 210px;
+        height: 200px;
+    }
+
+    .arts {
+        width: 680px;
+    }
+
+    .youtube-embed {
+        zoom: 1.1;
+    }
+
+    .social {
+        height: 35px;
+    }
+
 }
