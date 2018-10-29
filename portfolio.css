@@ -261,6 +261,10 @@ a {
     transform: translateY(-50%);
 }
 
+.image {
+    max-width: 100%;
+}
+
 .iframe {
     border-radius: 10px;
     -webkit-border-radius: 10px;
