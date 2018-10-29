@@ -289,11 +289,6 @@ a {
     margin-left: 8px;
 }
 
-iframe {
-    margin-top: -1px;
-}
-
-
 /* Mobile */
 @media (max-width: 357px) {
     .subtext {
