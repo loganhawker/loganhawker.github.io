@@ -166,7 +166,6 @@ a {
 }
 
 .tagline {
-    width: 290px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -297,6 +296,7 @@ a {
 
     .bg-png {
         width: 160px;
+        margin-right: -20px;
     }
 
     .youtube-embed {
@@ -342,11 +342,11 @@ a {
 
     .tagline {
         font-size: 1em;
+        width: 250px;
     }
 
-    .services {
-        height: auto;
-        overflow: visible;
+    iframe.lightwidget-widget {
+        height: 660px !important;
     }
 
 }
@@ -358,6 +358,7 @@ a {
 
     .bg-png {
         width: 170px;
+        margin-right: -20px;
     }
 
     .youtube-embed {
@@ -402,6 +403,7 @@ a {
 
     .tagline {
         font-size: 19px;
+        width: 280px;
     }
 }
 
@@ -453,6 +455,7 @@ a {
 
     .tagline {
         font-size: 20px;
+        width: 290px;
     }
 
 }
@@ -511,6 +514,7 @@ a {
 
     .tagline {
         font-size: 20px;
+        width: 290px;
     }
 
 }
