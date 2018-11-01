@@ -226,7 +226,7 @@ a {
 
 .services {
     display: block;
-    width: 100;
+    width: 100%;
     padding: 30px 0px 10px 0px;
     transform: skewy(2.5deg);
 }
@@ -278,7 +278,7 @@ a {
 .lightwidget-widget {
     border: 0;
     overflow: hidden;
-    
+
 }
 
 .white {
@@ -292,7 +292,7 @@ a {
 /* Mobile */
 @media (max-width: 538px) {
     .subtext {
-        font-size: 30pt;
+        font-size: 29pt;
     }
 
     .bg-png {
@@ -320,6 +320,7 @@ a {
 
     .lightwidget-widget {
         width: 430px;
+        height: 1000px;
     }
 
     .art {
@@ -328,7 +329,7 @@ a {
     }
 
     .arts {
-        width: 600px;
+        width: auto;
     }
 
     .social {
@@ -340,7 +341,12 @@ a {
     }
 
     .tagline {
-        font-size: 17px;
+        font-size: 1em;
+    }
+
+    .services {
+        height: auto;
+        overflow: visible;
     }
 
 }
@@ -393,6 +399,7 @@ a {
     .container {
         zoom: .8;
     }
+
     .tagline {
         font-size: 19px;
     }
@@ -443,6 +450,7 @@ a {
     .social {
         height: 35px;
     }
+
     .tagline {
         font-size: 20px;
     }
@@ -500,6 +508,7 @@ a {
     .social {
         height: 35px;
     }
+
     .tagline {
         font-size: 20px;
     }
