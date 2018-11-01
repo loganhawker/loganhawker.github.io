@@ -405,6 +405,9 @@ a {
         font-size: 19px;
         width: 280px;
     }
+    iframe.lightwidget-widget {
+        height: 360px !important;
+    }
 }
 
 /* Small Tablets */
