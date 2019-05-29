@@ -499,7 +499,7 @@ a {
         position: fixed;
         bottom: 0;
         pointer-events: none;
-        z-index: 1;
+        z-index: -1;
     }
 
     .ico {
@@ -532,7 +532,7 @@ a {
         position: fixed;
         bottom: 0;
         pointer-events: none;
-        z-index: -1;
+        z-index: 1;
     }
 
     .ico {
