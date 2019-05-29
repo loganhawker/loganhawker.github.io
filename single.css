@@ -267,7 +267,7 @@ a {
         margin-left: 20%;
         position: fixed;
         bottom: 0;
-        z-index: 1;
+        z-index: -11;
         opacity: .4;
     }
 
@@ -499,7 +499,7 @@ a {
         position: fixed;
         bottom: 0;
         pointer-events: none;
-        z-index: -1;
+        z-index: 1;
     }
 
     .ico {
