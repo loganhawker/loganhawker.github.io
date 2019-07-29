@@ -194,7 +194,7 @@ a {
 
 .service {
     display: inline-block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     width: 30%;
     text-align: center;
 }
@@ -430,11 +430,11 @@ nav {
     }
 
     .subtext {
-        font-size: 25pt;
+        font-size: 30pt;
     }
 
     .price {
-        font-size: 25pt;
+        font-size: 28pt;
     }
 
     .subicon {
