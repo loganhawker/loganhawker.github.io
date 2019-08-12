@@ -244,13 +244,19 @@ nav {
     position: relative;
     overflow: hidden;
     width: 600px;
-    height: 338px;
+    height: 336px;
     vertical-align: middle;
 }
 
 .youtube-embed {
     display: inline-block;
     margin: auto;
+    position: relative;
+}
+
+iframe {
+    position: relative;
+    top: -2px;
 }
 
 /* Mobile iPhone 5 */
