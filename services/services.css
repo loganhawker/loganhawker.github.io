@@ -252,6 +252,7 @@ nav {
     display: inline-block;
     margin: auto;
     position: relative;
+    margin-bottom: 50px;
 }
 
 iframe {
