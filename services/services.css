@@ -237,6 +237,22 @@ nav {
     color: black;
 }
 
+.iframe {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 338px;
+    vertical-align: middle;
+}
+
+.youtube-embed {
+    display: inline-block;
+    margin: auto;
+}
+
 /* Mobile iPhone 5 */
 
 @media (max-width: 357px) {
